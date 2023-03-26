@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+    <link rel="stylesheet" href="style.css">
+        <!-- font-awesome-cnd -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <style>body {
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+      
+      h1, h2, h3, h4, h5, h6 {
+        font-weight: bold;
+        margin-top: 0;
+      }
+      
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+
+
+      /*course content*/
+      .course .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .box-container{
+        display: flex;
+        align-items: center;
+    }
+      .course .box-container .boxx{
+        width: 700px;
+        border: .1rem solid #cc7dff;
+        position: relative;
+        margin: 1.5rem;
+      }
+
+      .course .box-container .boxx .contentt{
+        padding: 1rem;
+      }
+
+      .course .box-container .boxx .contentt .title{
+        color: #444;
+        font-size: 3rem;
+    }
+    .course .box-container .boxx .contentt .title:hover{
+        text-decoration: underline;
+    }
+
+    .course .box-container .boxx .contentt p{
+        padding: 1rem 0;
+        color: #666;
+        font-size: 1.5rem;
+    }
+
+      .heading{
+        color: #444;
+        padding: 1rem;
+        font-size: 4rem;
+        text-align: center;
+      }
+
+      .course .boxx img{
+        width: 700px;
+        height: 400px;
+        object-fit: cover;
+      }
+
+      
+      /* Main content styles */
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2em;
+      }
+      
+      /* Hero section styles */
+.hero {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #f5f5f5;
+padding: 4em;
+text-align: center;
+margin-top: 10rem;
+}
+
+.hero h1 {
+font-size: 3em;
+margin-bottom: 0.5em;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 2em;
+}
+
+.follow{
+  margin-top: 0;
+}
+
+
+
+
+@media (max-width:450px){
+    .course .box-container .boxx{
+        width: 300px;
+      }
+
+      .course .box-container .boxx .contentt{
+        padding: .6rem;
+      }
+
+      .course .box-container .boxx .contentt p{
+        padding: .6rem 0;
+    }
+
+    .heading{
+        padding: .6rem;
+        font-size: 2rem;
+      }
+
+      .course .boxx img{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .hero {
+padding: 2em;
+}
+
+.hero h1 {
+font-size: 2em;
+margin-bottom: 0.5em;
+}
+
+.hero p {
+font-size: .8em;
+margin-bottom: 1em;
+}
+}
+@media (max-width:550px){
+    .course .box-container .boxx{
+        width: 400px;
+      }
+
+      .course .boxx img{
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+      }
+
+}
+
+
+      </style>
+</head>
+<body>
+    <!-- header section start-->
+    <header class="header"> 
+      <section class="flex">
+          <a href="#home" class="logo"><span>pi</span><span style="color: white;">.kademy</span></a>
+
+          <nav class="navbar">
+              <a href="index.html#home">home</a>
+              <a href="index.html#motive">motive</a>
+              <a href="index.html#mission">mission</a>
+              <a href="index.html#teams">team</a>
+              <a href="index.html#institute">institute</a>
+              <a href="index.html#about">about us</a>
+              <a href="paymentpage.html">Pay fees</a>
+          </nav>
+
+          <div id="menu-btn" class="fas fa-bars"></div>
+      </section>
+  </header>
+  <!-- header section start-->
+    
+  
+    <main>
+        <section class="hero">
+            <h1>Welcome to pi.kademy</h1>
+            <p>Expand your knowledge and learn new skills with our courses.</p>
+        </section>
+        <section class="course">
+            <h2 class="heading"> courses we offer</h2>
+
+            <div class="box-container">
+
+                <div class="boxx">
+                    <img src="img/horiz.jfif" alt="">
+                    <div class="contentt">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <a href="#" class="title">Learn from end development</a>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste omnis, saepe quam cumque itaque recusandae nisi quia ipsum est, ut, cum error molestias architecto tenetur tempora! Debitis temporibus adipisci deleniti.</p>
+
+                    </div>
+                </div>
+
+                <div class="boxx">
+                    <img src="img/horiz.jfif" alt="">
+                    <div class="contentt">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <a href="#" class="title">Learn from end development 2</a>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste omnis, saepe quam cumque itaque recusandae nisi quia ipsum est, ut, cum error molestias architecto tenetur tempora! Debitis temporibus adipisci deleniti.</p>
+
+                    </div>
+                </div>
+
+                <div class="boxx">
+                    <img src="img/horiz.jfif" alt="">
+                    <div class="contentt">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <a href="#" class="title">Learn from end development 3</a>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste omnis, saepe quam cumque itaque recusandae nisi quia ipsum est, ut, cum error molestias architecto tenetur tempora! Debitis temporibus adipisci deleniti.</p>
+
+                    </div>
+                </div>
+
+                <div class="boxx">
+                    <img src="img/horiz.jfif" alt="">
+                    <div class="contentt">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <a href="#" class="title">Learn from end development 4</a>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste omnis, saepe quam cumque itaque recusandae nisi quia ipsum est, ut, cum error molestias architecto tenetur tempora! Debitis temporibus adipisci deleniti.</p>
+
+                    </div>
+                </div>
+
+                <div class="boxx">
+                    <img src="img/horiz.jfif" alt="">
+                    <div class="contentt">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <a href="#" class="title">Learn from end development 5</a>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste omnis, saepe quam cumque itaque recusandae nisi quia ipsum est, ut, cum error molestias architecto tenetur tempora! Debitis temporibus adipisci deleniti.</p>
+
+                    </div>
+                </div>
+                <div class="boxx">
+                    <img src="img/horiz.jfif" alt="">
+                    <div class="contentt">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <a href="#" class="title">Learn from end development 6</a>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste omnis, saepe quam cumque itaque recusandae nisi quia ipsum est, ut, cum error molestias architecto tenetur tempora! Debitis temporibus adipisci deleniti.</p>
+
+                    </div>
+                </div>
+
+                <div class="boxx">
+                    <img src="img/horiz.jfif" alt="">
+                    <div class="contentt">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                        <a href="#" class="title">Learn from end developmentb 7</a>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste omnis, saepe quam cumque itaque recusandae nisi quia ipsum est, ut, cum error molestias architecto tenetur tempora! Debitis temporibus adipisci deleniti.</p>
+
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!--course section ends-->
+
+    </main>
+
+      
+<!--follow us start-->
+<div class="follow">
+  <h3>Follow us:</h3>
+  <a href="" class="fa-brands fa-facebook"></a>
+  <a href="" class="fa-brands fa-instagram"></a>
+  <a href="" class="fa-brands fa-twitter"></a>
+  <a href="" class="fa-brands fa-linkedin"></a>
+  <a href="" class="fa-solid fa-envelope"></a>
+  <a href="" class="fa-solid fa-phone"></a>
+</div>
+</section>
+<!--follow us end-->
+
+  <!--footer start-->
+
+  <footer class="footer-section">
+      <div class="container">
+          <div class="footer-cta pt-5 pb-5">
+          </div>
+          <div class="footer-content pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-lg-4 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-logo">
+                              <a href="#home" class="logo"><span>pi</span><span style="color: black;">.kademy</span></a>
+                          </div>
+                          <div class="footer-text">
+                              <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                              elit,Lorem ipsum dolor sit amet.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Useful Links</h3>
+                          </div>
+                          <ul>
+
+
+                              <li><a href="index.html#home">Home</a></li>
+                              <li><a href="index.html#motive">motive</a></li>
+                              <li><a href="index.html#mission">mission</a></li>
+                              <li><a href="index.html#teams">teams</a></li>
+                              <li><a href="index.html#institute">institute</a></li>
+                              <li><a href="index.html#about">About us</a></li>
+                              <li><a href="index.html#news"> join our newsletter</a></li>
+                              <li><a href="index.html#branch"> our branches</a></li>
+                              <li><a href="course.html">courses we offer</a></li>
+                              <li><a href="paymentpage.html">mode of payment</a></li>
+                          </ul>
+                      </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
+  </footer>
+
+
+</footer>
+<footer>
+  <div class="footer-content">
+      <h1 class="line-1 anim-typewriter">Team Ziel</h1>
+      <p>"Hello everyone, we are tech team from
+
+          the ziel group.
+          
+          We are here to help & guide you
+          
+          towards your career in cybersecurity, ethical hacking, programming or just following your hobby. "</p>
+          <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+  </div>
+  <div class="footer-bottom">
+      <p>copyright &copy;  2023 Design by <a href="#">Team Ziel</a>  </p>
+              
+  </div>
+
+</footer>
+
+<!--footer ends-->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   <!--custome-js-link-->  
+   <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

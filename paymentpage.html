@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UPI Payment</title>
+  
+  <link rel="stylesheet" href="style.css">
+  
+    <!-- font-awesome-cnd -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+  <style>
+  
+
+
+  .ctre{
+    display: flex;
+    align-items: center;
+    height: 600px;
+  }
+
+  .containerr{ 
+    max-width: 400px;
+  box-shadow: 8px 8px 5px #aaaaaa;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 2rem;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .form-containerr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  #payment-form{
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+  }
+
+  button{
+	background-color: #fff;
+    border: .4rem solid var(--purple);
+	color: #000;
+	cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	margin-top: 20px;
+  border-radius: 5rem;
+}
+
+button:hover{
+    background-color: var(--white);
+    color: #fffdfd;
+}
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.whatsapp-button i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
+
+.scanner-container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.scanner-container img {
+	width: 250px;
+}
+
+.follow{
+  margin-top: 0;
+}
+
+/* Styles for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+  /* Set the font size of the body to 16px */
+  body {
+    font-size: 16px;
+  }
+  
+  /* Center the content on the course page */
+  .course-content {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  
+  /* Adjust the width and height of the payment form */
+  #payment-form {
+    width: 90%;
+    height: 400px;
+  }
+}
+
+
+
+  </style>
+</head>
+<body>
+    <!-- header section start-->
+    <header class="header"> 
+      <section class="flex">
+          <a href="#home" class="logo"><span>pi</span><span style="color: white;">.kademy</span></a>
+
+          <nav class="navbar">
+            <a href="index.html#home">home</a>
+            <a href="index.html#motive">motive</a>
+            <a href="index.html#mission">mission</a>
+            <a href="index.html#teams">team</a>
+            <a href="index.html#institute">institute</a>
+            <a href="index.html#about">about us</a>
+            <a href="paymentpage.html">Pay fees</a>
+        </nav>
+
+          <div id="menu-btn" class="fas fa-bars"></div>
+      </section>
+  </header>
+  <!-- header section start-->
+<div class="ctre">
+	<div class="containerr">
+    <h1>UPI Payment</h1>
+		<div class="form-containerr">
+			<div class="scanner-container">
+				<img src="img/scanner.png" alt="Scanner">
+			</div>
+		</div>
+    <a href="https://wa.me/1234567890" target="_blank">
+      <div class="whatsapp-button">
+        <i class="fab fa-whatsapp"></i>
+        <span>Chat on WhatsApp</span>
+      </div>
+    </a>    
+	</div>
+</div>
+
+  <!--follow us start-->
+<div class="follow">
+  <h3>Follow us:</h3>
+  <a href="" class="fa-brands fa-facebook"></a>
+  <a href="" class="fa-brands fa-instagram"></a>
+  <a href="" class="fa-brands fa-twitter"></a>
+  <a href="" class="fa-brands fa-linkedin"></a>
+  <a href="" class="fa-solid fa-envelope"></a>
+  <a href="" class="fa-solid fa-phone"></a>
+</div>
+</section>
+<!--follow us end-->
+
+  <!--footer start-->
+
+  <footer class="footer-section">
+      <div class="container">
+          <div class="footer-cta pt-5 pb-5">
+          </div>
+          <div class="footer-content pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-lg-4 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-logo">
+                              <a href="#home" class="logo"><span>pi</span><span style="color: black;">.kademy</span></a>
+                          </div>
+                          <div class="footer-text">
+                              <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                              elit,Lorem ipsum dolor sit amet.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Useful Links</h3>
+                          </div>
+                          <ul>
+
+
+                              <li><a href="#home"  >Home</a></li>
+                              <li><a href="#motive">motive</a></li>
+                              <li><a href="#mission">mission</a></li>
+                              <li><a href="#teams">teams</a></li>
+                              <li><a href="#institute">institute</a></li>
+                              <li><a href="#about">About us</a></li>
+                              <li><a href="#news"> join our newsletter</a></li>
+                              <li><a href="#branch"> our branches</a></li>
+                              <li><a href="course.html">courses we offer</a></li>
+                              <li><a href="paymentpage.html">mode of payment</a></li>
+                          </ul>
+                      </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
+  </footer>
+
+
+</footer>
+<footer>
+  <div class="footer-content">
+      <h1 class="line-1 anim-typewriter">Team Ziel</h1>
+      <p>"Hello everyone, we are tech team from
+
+          the ziel group.
+          
+          We are here to help & guide you
+          
+          towards your career in cybersecurity, ethical hacking, programming or just following your hobby. "</p>
+          <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+  </div>
+  <div class="footer-bottom">
+      <p>copyright &copy;  2023 Design by <a href="#">Team Ziel</a>  </p>
+              
+  </div>
+
+</footer>
+
+<!--footer ends-->
+	<script>const paymentForm = document.getElementById('payment-form');
+    const payButton = document.getElementById('pay-button');
+    
+    paymentForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const name = document.getElementById('name').value;
+      const upiId = document.getElementById('upi-id').value;
+      const amount = document.getElementById('amount').value;
+      alert(`Payment of ${amount} has been initiated to ${upiId} for account name ${name}.`);
+    });
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!--custome-js-link-->  
+<script src="swiper-bundle.min.js"></script>
+ <script src="script.js"></script>
+</body>
+</html>

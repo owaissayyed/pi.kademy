@@ -501,24 +501,26 @@
 
 <!--Newsletter box start-->
 <section class="news" id="news">
-<div class="login-box">
+<div class="login-box" id="joinNewsletter">
     <h2>Join Our Newsletter</h2>
     <form>
       <div class="user-box">
-        <input type="text" name="" required="">
+        <input type="text" name="" required="" id="name">
         <label>Name</label>
       </div>
       <div class="user-box">
-        <input type="email" name="" required="">
+        <input type="email" name="" required="" id="emailid">
         <label>Email</label>
       </div>
-      <a href="#">
+      <button type="submit" style="background-color: #fff;">
+      <a>
         <span></span>
         <span></span>
         <span></span>
         <span></span>
        Sign Up
       </a>
+      </button>
     </form>
   </div>
 </section>
@@ -757,6 +759,7 @@
 
 <!--footer ends-->
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
    <!--custome-js-link-->  
